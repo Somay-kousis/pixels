@@ -21,3 +21,4 @@ Append-only. Status: **settled**, **provisional**, **reversed** (kept, with what
 - 2026-10-05 · Mew replaced by ~/Downloads/mew_.gif (Somay: "keep this mew instead") → friends/mew-fly.gif.
 - 2026-10-05 · Sizes measured on the first frame's body, cat (80×56 pt) is the reference and unchanged (Somay: "car is perfect though just do pokemoins"). Small class 60 pt (Vaporeon, Mew), big class 82 pt (Gengar, Lapras via "-big" filename tag). Pixel-art scale snaps to quarter art-pixel steps.
 - 2026-10-05 · Supersedes the 60/82 pt sizing: Pokémon matched to each other at ~100 pt body height (Gengar 100, Lapras 99, Vaporeon 96, Mew 100); cat untouched. "-big" tag = 120 pt. Lapras renamed back to lapras.gif.
+- 2026-10-05 · GitHub repo is PRIVATE because it contains Pokémon sprites; README says personal use only. Leftover WaterBuddy.swift/.app in ~/Pixels kept but gitignored.

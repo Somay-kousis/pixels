@@ -22,6 +22,7 @@ Pixels: macOS desktop pets from Somay's own GIFs that remind him to drink water 
 14. "keep this mew instead" → friends/mew-fly.gif replaced with ~/Downloads/mew_.gif (8 frames), render checked.
 15. "comapre sizes and adjust, cat is perfect, just do pokemons" → measured bodies (Gengar 112, Vaporeon 96, Lapras 66, Mew 71 vs cat 56 pt); now Gengar/Lapras 82, Vaporeon/Mew ~60; lapras.gif → lapras-big.gif; lineup render ~/Pixels/size-lineup.png.
 16. "bigger, I didnt ask you to compare cat with them" → all Pokémon ~100 pt, matched to each other; lapras back to lapras.gif.
+17. "make repo and push it" → git init, README + .gitignore (*.app, prompts.md, WaterBuddy.swift leftover, size-lineup.png), commit 5f32fa3, private repo https://github.com/Somay-kousis/pixels pushed.
 
 ## Decisions
 
@@ -35,7 +36,7 @@ Pixels: macOS desktop pets from Somay's own GIFs that remind him to drink water 
 
 ## Repo state
 
-~/Pixels (not git): Pixels.swift, build.sh, assets/ (water-cat.gif, walk-ghost.gif), friends/ (vaporeon.gif, lapras.gif stationary; mew-fly.gif = mew_.gif, floats), chat/. Installed ~/Applications/Pixels.app, running, login item "Pixels". Last verify 2026-10-05 10:08: build OK; WB_DEBUG --demo showed walking + chase; offscreen render of all three friends OK; app ran with empty stderr.
+~/Pixels (git, main → origin https://github.com/Somay-kousis/pixels, PRIVATE): Pixels.swift, build.sh, assets/ (water-cat.gif, walk-ghost.gif), friends/ (vaporeon.gif, lapras.gif stationary; mew-fly.gif = mew_.gif, floats), chat/. Installed ~/Applications/Pixels.app, running, login item "Pixels". Last verify 2026-10-05 10:08: build OK; WB_DEBUG --demo showed walking + chase; offscreen render of all three friends OK; app ran with empty stderr.
 
 ## Next action
 
