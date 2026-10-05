@@ -12,3 +12,4 @@ deliberate. Claude adds a row; Somay may strike one, but not silently.
 - 2026-10-05 · Brief was a water reminder only. Somay: "Lets make Loti as water reminder / Boo as walk reminder" → scope now two buddies (water + walk). Also "maybe we can use aye aye directly lol" → Aye-aye brand style/lemur offered as a third option.
 
 - 2026-10-05 · Repo visibility: Claude recommended public code-only; Somay chose "Public with all GIFs" ("we can make it public as these are publically avaible and used").
+- 2026-10-05 · Pets stop interacting physically: Claude proposed bumping/meeting; Somay: "naah them coloding isnt fun they should have gap otherwise all ofthrm get comopact at one place" → spacing rule instead.

@@ -6,7 +6,11 @@ Desktop pets for macOS that remind you to drink water and take walks.
 - **Gengar**: walk reminder (default every 60 min). Floats around.
 - When a reminder is due, that pet comes to your mouse pointer, hops and shows a bubble. Click it to log the glass or walk.
 - **Friends**: every GIF/PNG in `friends/` becomes a companion. `-fly` in the filename makes it float, `-walk` makes it walk (for real walk-cycle GIFs), `-big` makes it a size up. Others stay where you put them.
-- Timers pause while the screen is off or locked. Right-click any pet for intervals, snooze, sound, "Let them wander", and "Show both reminders now".
+- Ignored reminders escalate: after 5 min the pet grows and shakes; after 10 min the screen dims with a big pet and Done / 5 more min buttons (skipped while your camera or mic is in use or an app is fullscreen).
+- Each pet has its own personality and signature moves (Gengar vanishes and sneaks up on your cursor, Vaporeon melts, Lapras sings, Mew transforms into the others). Pets keep a gap from each other.
+- Shake the mouse: everyone jumps and scatters. ⌃⌥J: everyone jumps.
+- Right-click a pet: "Move around" on/off, "Hide (peek from the bottom)", intervals, snooze, sound, and "Show both reminders now".
+- Timers pause while the screen is off or locked.
 
 The app reads friends from `~/Pixels/friends`.
 

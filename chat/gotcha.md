@@ -19,3 +19,5 @@ moment something costs an hour.
 - 2026-10-05 · Images Somay pastes mid-turn (Vaporeon, Lapras, Mew) are not saved to the session images/ dir (only 1.gif, 2.gif exist; find under /private/tmp/claude-501 found nothing new) → ask him to save the files into ~/Pixels/friends instead of searching.
 
 - 2026-10-05 · "comapre sizes and adjust car is perfect though just do pokemoins" read as "size Pokémon against the cat" → shrank them to 60/82 pt → Somay: "bigger like you shrank them a lot, I didnt ask you to comapre cat with them" → he meant match the Pokémon to each other; when a size request is ambiguous, keep the current scale and only equalise, or ask.
+
+- 2026-10-05 · Sinking hidden pets by a fraction of the sprite box → the cat's box has empty space above it for its flip, so −64 pt hid the whole cat → measure the body in frame 0 (Sprite.restBodyHeight) and sink 45% of that. Also hidden pets kept their slide destination private, so two picked the same spot and overlapped for seconds → keep it in `target` so `crowded(countTargets:)` sees it.

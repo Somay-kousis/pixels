@@ -24,6 +24,9 @@ Pixels: macOS desktop pets from Somay's own GIFs that remind him to drink water 
 16. "bigger, I didnt ask you to compare cat with them" → all Pokémon ~100 pt, matched to each other; lapras back to lapras.gif.
 17. "make repo and push it" → git init, README + .gitignore (*.app, prompts.md, WaterBuddy.swift leftover, size-lineup.png), commit 5f32fa3, private repo https://github.com/Somay-kousis/pixels pushed.
 18. "make it public" + "no claude name in commits" → warned about takedown risk, he chose public with all GIFs; commits verified clean (author Somay-kousis, no Claude lines); README reworded; repo made PUBLIC.
+19. Escalation asked ("gradually hard to ignore"; confirm clicking = done → yes) → 3 stages + busy cap + takeover. Liked: no takeover on calls, click-only dismiss, small reward; "make them more alive… animate each" → idle actions for all pets + Done celebration.
+20. Brainstorm → personalities + signature moves (vanish/sneak, melt, sing, transform, sassy cat), no-collision spacing, mouse-shake + ⌃⌥J group jump; 💦 removed for Vaporeon. Verified renders + 25 s run with 0 overlaps.
+21. Right-click per pet: "Move around" toggle (cat/Gengar/Mew) + "Hide (peek from the bottom)" for all; verified via debug positions (still Gengar fixed; hidden pets at −25…−45 pt, 0 overlaps after settling) and an edge render.
 
 ## Decisions
 
@@ -32,6 +35,7 @@ Pixels: macOS desktop pets from Somay's own GIFs that remind him to drink water 
 ## Open gaps
 
 - Pokémon sprites are in a PUBLIC repo by Somay's informed choice; a DMCA takedown is possible. `SAFE TO IGNORE FOR NOW`
+- Takeover never seen on the real screen (rendered offscreen only); busy detection true-path untested (no call during test). `SAFE TO IGNORE FOR NOW`
 - Claude can't see the screen (access declined): click/drag/menu, wander feel, sizes and the sleep/lock pause verified only via logs/offscreen renders. `SAFE TO IGNORE FOR NOW`
 - Friends have no reminder role (Claude's call). `SAFE TO IGNORE FOR NOW`
 
@@ -41,6 +45,7 @@ Pixels: macOS desktop pets from Somay's own GIFs that remind him to drink water 
 
 ## Next action
 
-None pending; wait for Somay's feedback. New pets → ~/Pixels/friends (look in ~/Downloads) → menu "Restart Pixels". Ship code: ./build.sh, pkill -x Pixels, rm -rf ~/Applications/Pixels.app, cp -R Pixels.app ~/Applications/, open it.
+Somay tries it: shake mouse / ⌃⌥J, watch moves. Changes since 1a5e3af uncommitted; commit only when asked.
 
 ## Compaction log
+- 2026-10-05 14:41 · session ended (other) · checkpoint last updated 3 min ago · transcript 10819 KB
