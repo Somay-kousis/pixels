@@ -1,0 +1,7 @@
+chat/.state.json
+chat/prompts.md
+*.app/
+.DS_Store
+# pre-rename leftover copied in when the session moved here
+WaterBuddy.swift
+size-lineup.png
