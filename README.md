@@ -21,4 +21,4 @@ Install: `cp -R Pixels.app ~/Applications/`, then add it to Login Items to start
 
 ## Assets
 
-The sprites in `assets/` and `friends/` are not mine (Pokémon sprites are © Nintendo / Game Freak). They are here for personal use only; keep this repository private.
+The sprites in `assets/` and `friends/` are not mine: Pokémon sprites are © Nintendo / Game Freak, the cat GIF belongs to its creator. They're included as examples for a non-commercial fan project. Swap in any GIFs you like.
