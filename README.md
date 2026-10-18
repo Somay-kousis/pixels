@@ -1,5 +1,12 @@
 # Pixels
 
+<p align="center">
+  <img src="https://img.shields.io/badge/language-Swift-F05138.svg" alt="Swift" />
+  <img src="https://img.shields.io/badge/macOS-13.0%2B-000000.svg" alt="macOS" />
+  <img src="https://img.shields.io/badge/AppKit-UI-1575F9.svg" alt="AppKit" />
+  <img src="https://img.shields.io/badge/SwiftUI-views-0D96F6.svg" alt="SwiftUI" />
+</p>
+
 Desktop pets for macOS that remind you to drink water and take walks.
 
 - **Cat**: water reminder (default every 45 min, goal 8 glasses a day). Walks along the bottom of the screen.
