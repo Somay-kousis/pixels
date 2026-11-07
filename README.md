@@ -19,7 +19,7 @@ Desktop pets for macOS that remind you to drink water and take walks.
 - Right-click a pet: "Move around" on/off, "Hide (peek from the bottom)", intervals, snooze, sound, and "Show both reminders now".
 - Timers pause while the screen is off or locked.
 
-The app reads friends from `~/Pixels/friends`.
+The app reads friends from `~/Pixels/friends`. If you cloned somewhere other than `~/Pixels`, copy them over: `mkdir -p ~/Pixels && cp -R friends ~/Pixels/`.
 
 ## Build and run
 
